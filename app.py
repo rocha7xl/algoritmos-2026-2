@@ -1,48 +1,46 @@
-print(type("Rafael"))# O tipo de dados do nome Rafael é "str"
-print(type(8))# O tipo de dados do número 8 é "int"
-print(type(True))# O tipo de dados do valor booleano True é "bool"
-print(type(False))# O tipo de dados do valor booleano False é "bool"
-print(type(7.5))# O tipo de dados do número 7.5 é "float"
+# metros = float(input("Digite o valor em metros: "))
+# centimetros = metros * 100
 
-nome= "Rafael"
-idade= 18
-print("Olá, meu nome é", nome, "e a minha idade é", idade,)
+# print("O valor convertido é:", centimetros, "centimetros")
 
-# Operadores aritméticos
+#import cowsay
 
-print(5 + 5) # operação de adição
-print(7 - 5) # operação de subtração
-print(7 * 5) # operação de multiplicação
-print(10 / 2) # operação de divisão
-print(10 // 2) # operação de divisão inteira
-print(3 ** 3) # operação de exponenciação
-print(10 % 2) # operação de módulo (resto da divisão)
-
-a = 2
-b = 4
-c = 6
-d = 8
-e = 10
-f = 12
-# Operadores de atribuição
-a+=5 # a = a + 5 -> a = 2 + 5
-b-=3 # b = b - 3 -> b = 4 - 3
-c*=2 # c = c * 2 -> c = 6 * 2
-d/=4 # d = d / 4 -> d = 8 / 4
-e//=5 # e = e // 5 -> e = 10 // 5
-f%=3 # f = f % 3 -> f = 12 % 3
+#cowsay.trex("Dracarys")
+#cowsay.dragon("Dracarys")
 
 
+#estrutura de seleção
 
-# Operadores de comparação
-print(5 == 5) # operação de igualdade
-print(5 != 5) # operação de diferença
-print(5 > 5) # operação de maior que
-print(5 < 5) # operação de menor que
-print(5 >= 5) # operação de maior ou igual a
-print(5 <= 5) # operação de menor ou igual a
+#idade = int(input("Digite sua idade: "))
+#if idade >= 18:
+#     print("Você é maior de idade.")
+# #else:
+#    # print("Você é menor de idade.")
 
-# Operadores lógicos
-print(5 > 3 and 5 < 10) # operação de conjunção (and)
-print(5 > 3 or 5 < 10) # operação de disjunção (or)
-print(not(5 > 3)) # operação de negação (not)
+#    # semaforo = input("Digite a cor do semáforo (vermelho, amarelo, verde): ")
+# #if semaforo == "vermelho":
+#     print("Pare!")
+# #elif semaforo == "amarelo":
+#     print("Atenção!")
+# #elif semaforo == "verde":
+#     print("Siga!")
+# #else:
+#    # print("Cor inválida.")
+
+#     opção = 2
+#     match opção:
+#         case 1:
+#             print("Opção 1 selecionada.")
+#         case 2:
+#             print("Opção 2 selecionada.")
+#         case _:
+#             print("Opção inválida.")
+
+
+for i in range(5, 50, 10):
+                print("Número:", i)
+
+x = 0
+while x < 5:
+    x  = x + 1
+    print(x)    
